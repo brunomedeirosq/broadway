@@ -1,0 +1,35 @@
+/* Common style applied to all content */
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
+
+/* Header style */
+
+header {
+  background-image: url('../images/the-flatiron-building.png');
+  background-size: cover;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  padding-top: 20px;
+}
+
+header a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Main style */
