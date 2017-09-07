@@ -5,6 +5,10 @@ body {
   text-align: center;
 }
 
+body p {
+  font-size: 14px;
+}
+
 /* Header style */
 
 header {
@@ -20,16 +24,50 @@ header h1 {
 
 header ul {
   list-style-type: none;
+  /* Reset CSS to reduce browser inconsistencies */
+  margin: 0px;
+  padding: 0px;
 }
 
 header li {
   padding-top: 20px;
 }
 
-header a {
+header a,
+footer a {
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
 /* Main style */
+
+main h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+main h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+/* Special style h3 */
+.background-image {
+  color: white;
+  background-image: url('../images/the-flatiron-building.png');
+  background-size: cover;
+}
+
+/* Footer style */
+
+footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
+
+footer li {
+  display: inline;
+}
